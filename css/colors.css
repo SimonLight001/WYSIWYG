@@ -1,0 +1,80 @@
+html, body {
+  background-color: #555555;
+}
+.headerBar{
+    background-color: white;
+}
+.menuBtn{
+    background-color: transparent;
+}
+.closeBtn{
+    background-color: transparent;
+}
+.closeBtn{
+  color: white;
+}
+.fontSelection{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+#fontSizeBox{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.fontSelection option{
+  background-color: #555555;
+  color: white;
+}
+.toolBar{
+    background-color: #555555;
+}
+.toolBtn{
+    background-color: transparent;
+    transition: .2s;
+}
+.toolBtn:hover{
+    transform: scale(1.2);
+}
+.dropbtn{
+  background-color: transparent;
+  transition: .2s;
+}
+.dropbtn:hover, .dropbtn:focus{
+    transform: scale(1.2);
+}
+.dropdown-content{
+      background-color: #f9f9f9;
+}
+.dropdown-content a{
+      color: white;
+}
+.dropdown-content a:hover{
+  background-color: lightgrey
+}
+.btn{
+      color: white;
+      background-color: white;
+}
+.btn:hover{
+  background-color: lightgrey;
+}
+#openFileDialog, #saveFileDialog{
+    background-color: grey;
+}
+#filepathinput, #saveFileInput {
+  background-color: transparent;
+  color: white;
+}
+#openFileBtn, #saveFileBtn{
+  background-color: lightgrey;
+}
+#openFileBtn:hover, #saveFileBtn:hover {
+  background-color: #555555;
+  color: white;
+}
+#openFileCloseBtn, #saveFileCloseBtn{
+  background-color: red;
+  color: white;
+}
